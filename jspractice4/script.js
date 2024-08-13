@@ -20,7 +20,7 @@ function print (username , password , role) {
 }
 const count= users.length;
 const x= prompt("please enter username :");
-for( let i=0 ; i<users.length ;i++) {
+for( let i=0 ; i<count ;i++) {
     if ( users[i].username === x)
     {
         const y= prompt("please enter password");
